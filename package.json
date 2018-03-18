@@ -1,0 +1,32 @@
+{
+  "name": "chalog",
+  "version": "0.0.4",
+  "description": "a node logger with fancy chalk",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "npm run clean && tsc && cp src/index.d.ts lib/index.d.ts",
+    "clean": "rm -rf lib/*"
+  },
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Boxie5/chalog.git"
+  },
+  "keywords": [
+    "nodejs",
+    "console-log",
+    "logger",
+    "chalk",
+    "fancy-log"
+  ],
+  "author": "boxie5",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neo-wave/chalog/issues"
+  },
+  "homepage": "https://github.com/Boxie5/chalog#readme",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "typescript": "^2.7.2"
+  }
+}
